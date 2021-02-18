@@ -20,7 +20,6 @@ with symmetry taken into account. It gives a formula to count objects, where two
 an orbit of X). For any element g∈G, let X^g be the set of points of X which are fixed by g: X^g = {x∈X:g⋅x=x}. Then 
 >
 >![Alt text](./burnside.svg)
- <img src="./burnside.svg">
 >
 >In other words, the number of orbits is the average number of fixed points of G.
 
@@ -31,7 +30,6 @@ imagine as the set of indexes of the entries of the matrices. Each matrix is a f
 end, according to the theorem, we need to figure out the cardinality of |S^x/G|, or to compute the orbits of G in S^X.
 
 >![Alt text](./polya.svg)
- <img src="./polya.svg">
 
 ### 2. What kind of running time we should expect here. 
 
