@@ -19,7 +19,8 @@ with symmetry taken into account. It gives a formula to count objects, where two
 >Let G be a finite group that acts on the set X. Let X/G be the set of orbits of X (that is, each element of X/G is 
 an orbit of X). For any element g∈G, let X^g be the set of points of X which are fixed by g: X^g = {x∈X:g⋅x=x}. Then 
 >
->∣X/G∣ = 1/∣G∣ ∑g∈G |X^g|
+>![Alt text](./burnside.svg)
+ <img src="./burnside.svg">
 >
 >In other words, the number of orbits is the average number of fixed points of G.
 
@@ -28,6 +29,9 @@ Burnside's lemma on the number of orbits of a group action on a set. We can repr
 Sw and Sh are the symmetric groups of their underlying sets W and H. The group G acts on the set X = W x H, which we can 
 imagine as the set of indexes of the entries of the matrices. Each matrix is a function f: X->S, and the f∈S^x. In the 
 end, according to the theorem, we need to figure out the cardinality of |S^x/G|, or to compute the orbits of G in S^X.
+
+>![Alt text](./polya.svg)
+ <img src="./polya.svg">
 
 ### 2. What kind of running time we should expect here. 
 
